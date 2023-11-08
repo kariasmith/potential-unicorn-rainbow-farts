@@ -352,6 +352,7 @@ button {
 }
 
 #diamond-shield {
+    margin-bottom: 20px;
     width: 0;
     height: 0;
     border: 50px solid transparent;
@@ -371,6 +372,7 @@ button {
 }
 
 #diamond-narrow {
+    margin-bottom: 20px;
     width: 0;
     height: 0;
     border: 50px solid transparent;
@@ -390,6 +392,7 @@ button {
 }
 
 #cut-diamond {
+    margin: 10px 0 70px 0;
     border-style: solid;
     border-color: transparent transparent red transparent;
     border-width: 0 25px 25px 25px;
@@ -397,7 +400,6 @@ button {
     width: 50px;
     box-sizing: content-box;
     position: relative;
-    margin: 20px 0 50px 0;
 }
 #cut-diamond:after {
     content: "";
@@ -490,6 +492,7 @@ button {
 }
 
 #burst-12 {
+    margin: 10px 0 30px 20px;
     background: red;
     width: 80px;
     height: 80px;
@@ -514,6 +517,7 @@ button {
 }
 
 #burst-8 {
+    margin: 10px 0 30px 20px;
     background: red;
     width: 80px;
     height: 80px;
@@ -569,6 +573,7 @@ button {
 }
 
 #badge-ribbon {
+    margin: 10px 0 30px 20px;
     position: relative;
     background: red;
     height: 100px;
@@ -593,6 +598,7 @@ button {
 }
 
 #space-invader {
+    margin: 50px 0 70px 100px;
     box-shadow: 0 0 0 1em red,
     0 1em 0 1em red,
     -2.5em 1.5em 0 .5em red,
@@ -627,14 +633,13 @@ button {
     width: 1em;
     height: 1em;
     overflow: hidden;
-    margin: 50px 0 70px 65px;
 }
 
 #tv {
     position: relative;
     width: 200px;
     height: 150px;
-    margin: 20px 0;
+    margin: 20px 0 0 20px;
     background: red;
     border-radius: 50% / 10%;
     color: white;
@@ -650,4 +655,283 @@ button {
     left: -5%;
     background: inherit;
     border-radius: 5% / 50%;
+}
+
+#chevron {
+    margin: 20px 0 10px 20px;
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    height: 60px;
+    width: 200px;
+}
+#chevron:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    background: red;
+    transform: skew(0deg, 6deg);
+}
+#chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: red;
+    transform: skew(0deg, -6deg);
+}
+
+#magnifying-glass {
+    margin-bottom: 20px;
+    font-size: 10em;
+    display: inline-block;
+    width: 0.4em;
+    box-sizing: content-box;
+    height: 0.4em;
+    border: 0.1em solid red;
+    position: relative;
+    border-radius: 0.35em;
+}
+#magnifying-glass:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -0.25em;
+    bottom: -0.1em;
+    border-width: 0;
+    background: red;
+    width: 0.35em;
+    height: 0.08em;
+    transform: rotate(45deg);
+}
+
+#facebook-icon {
+    margin: 0 0 20px 20px;
+    background: red;
+    text-indent: -999em;
+    width: 100px;
+    height: 110px;
+    box-sizing: content-box;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    border: 15px solid red;
+    border-bottom: 0;
+}
+#facebook-icon:before {
+    content: "/20";
+    position: absolute;
+    background: red;
+    width: 40px;
+    height: 90px;
+    bottom: -30px;
+    right: -37px;
+    border: 20px solid #eee;
+    border-radius: 25px;
+    box-sizing: content-box;
+}
+#facebook-icon:after {
+    content: "/20";
+    position: absolute;
+    width: 55px;
+    top: 50px;
+    height: 20px;
+    background: #eee;
+    right: 5px;
+    box-sizing: content-box;
+}
+
+#moon {
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 red;
+}
+
+#flag {
+    margin: 0 0 20px 20px;
+    width: 110px;
+    height: 56px;
+    box-sizing: content-box;
+    padding-top: 15px;
+    position: relative;
+    background: red;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+#flag:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid #eee;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+}
+
+#cone {
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 100px solid red;
+    border-radius: 50%;
+}
+
+#cross {
+    margin: 0 0 20px 40px;
+    background: red;
+    height: 100px;
+    position: relative;
+    width: 20px;
+}
+#cross:after {
+    background: red;
+    content: "";
+    height: 20px;
+    left: -40px;
+    position: absolute;
+    top: 40px;
+    width: 100px;
+}
+
+#base {
+    background: red;
+    display: inline-block;
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 55px;
+    position: relative;
+    width: 100px;
+}
+#base:before {
+    border-bottom: 35px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: -35px;
+    width: 0;
+}
+
+#pointer {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    background: red;
+}
+#pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+#pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid red;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+#lock {
+    font-size: 8px;
+    position: relative;
+    width: 18em;
+    height: 13em;
+    border-radius: 2em;
+    top: 10em;
+    box-sizing: border-box;
+    border: 3.5em solid red;
+    border-right-width: 7.5em;
+    border-left-width: 7.5em;
+    margin: 0 0 6rem 0;
+}
+#lock:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: 2.5em solid red;
+    width: 14em;
+    height: 12em;
+    left: 50%;
+    margin-left: -7em;
+    top: -12em;
+    border-top-left-radius: 7em;
+    border-top-right-radius: 7em;
+}
+#lock:after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: 1em solid red;
+    width: 5em;
+    height: 8em;
+    border-radius: 2.5em;
+    left: 50%;
+    top: -1em;
+    margin-left: -2.5em;
+}
+
+#curved-corner-bottomleft,
+#curved-corner-bottomright,
+#curved-corner-topleft,
+#curved-corner-topright {
+width: 100px;
+height: 100px;
+overflow: hidden;
+position: relative;
+}
+#curved-corner-bottomleft:before,
+#curved-corner-bottomright:before,
+#curved-corner-topleft:before,
+#curved-corner-topright:before {
+content: "";
+display: block;
+width: 200%;
+height: 200%;
+position: absolute;
+border-radius: 50%;
+}
+#curved-corner-bottomleft:before {
+bottom: 0;
+left: 0;
+box-shadow: -50px 50px 0 0 red;
+}
+#curved-corner-bottomright:before {
+bottom: 0;
+right: 0;
+box-shadow: 50px 50px 0 0 red;
+}
+#curved-corner-topleft:before {
+top: 0;
+left: 0;
+box-shadow: -50px -50px 0 0 red;
+}
+#curved-corner-topright:before {
+top: 0;
+right: 0;
+box-shadow: 50px -50px 0 0 red;
 }
