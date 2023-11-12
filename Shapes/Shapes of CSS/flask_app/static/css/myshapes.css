@@ -1,0 +1,19 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS */
+/* A type selector is sometimes referred to as a tag name selector or element selector because it selects an HTML tag/element in your document. */
+/* .class */
+/* #id */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    margin: auto 0;
+    padding-left: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
