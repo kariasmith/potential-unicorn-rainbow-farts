@@ -23,6 +23,8 @@
 #tree {
 
 }
+/* If the content property is not specified, has an invalid value, or has normal or none as a value, then the ::before pseudo-element is not rendered. It behaves as if display: none is set. */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/::before */
 #tree:before {
 
 }
