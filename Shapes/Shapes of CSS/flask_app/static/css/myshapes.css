@@ -18,6 +18,8 @@
     justify-content: flex-end;
 }
 
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/z-index */
+/* The z-index CSS property sets the z-order of a positioned element and its descendants or flex and grid items. Overlapping elements with a larger z-index cover those with a smaller one. */
 #tree {
 
 }
