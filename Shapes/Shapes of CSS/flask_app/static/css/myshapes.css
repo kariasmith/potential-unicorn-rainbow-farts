@@ -21,7 +21,15 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/z-index */
 /* The z-index CSS property sets the z-order of a positioned element and its descendants or flex and grid items. Overlapping elements with a larger z-index cover those with a smaller one. */
 #tree {
-
+    column-count: 1;
+    content: '';
+    z-index: 6;
+    display: table;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid green;
 }
 /* If the content property is not specified, has an invalid value, or has normal or none as a value, then the ::before pseudo-element is not rendered. It behaves as if display: none is set. */
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/::before */
