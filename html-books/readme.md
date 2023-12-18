@@ -21,3 +21,5 @@ In a nutshell (and to prevent link rot):
         If the inner element can have a fixed height, you can make its position absolute and specify its height, margin-top and top position. jsfiddle example
         If the centered element consists of a single line and its parent height is fixed you can simply set the container’s line-height to fill its height. This method is quite versatile in my experience. jsfiddle example
         … there are more such special cases.
+
+https://www.django-rest-framework.org/api-guide/routers/
