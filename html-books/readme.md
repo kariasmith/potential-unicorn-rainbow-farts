@@ -25,3 +25,5 @@ In a nutshell (and to prevent link rot):
 https://www.django-rest-framework.org/api-guide/routers/
 
 https://flask.palletsprojects.com/en/3.0.x/
+
+https://tailwindcss.com/
