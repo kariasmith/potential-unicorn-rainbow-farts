@@ -10,6 +10,8 @@ http://www.webserver/webpages/next.html#middle
 https://developer.mozilla.org/en-US/docs/Web/CSS
 CSS3
 
+https://validator.w3.org/
+
 Understanding vertical-align, or "How (Not) To Vertically Center Content" by Gavin Kistner.
 
 “How to center in CSS” is a great web tool which helps to find the necessary CSS centering attributes for different situations.
