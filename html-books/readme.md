@@ -12,6 +12,10 @@ CSS3
 
 https://validator.w3.org/
 
+A DTD is a Document Type Definition.
+
+A DTD defines the structure and the legal elements and attributes of an XML document.
+
 Understanding vertical-align, or "How (Not) To Vertically Center Content" by Gavin Kistner.
 
 “How to center in CSS” is a great web tool which helps to find the necessary CSS centering attributes for different situations.
