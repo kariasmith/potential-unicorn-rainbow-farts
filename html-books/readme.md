@@ -16,6 +16,21 @@ A DTD is a Document Type Definition.
 
 A DTD defines the structure and the legal elements and attributes of an XML document.
 
+ <?xml version="1.0"?>
+<!DOCTYPE note [
+<!ELEMENT note (to,from,heading,body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Reminder</heading>
+<body>Don't forget me this weekend</body>
+</note> 
+
 Understanding vertical-align, or "How (Not) To Vertically Center Content" by Gavin Kistner.
 
 “How to center in CSS” is a great web tool which helps to find the necessary CSS centering attributes for different situations.
