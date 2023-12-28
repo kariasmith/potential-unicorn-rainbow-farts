@@ -15,7 +15,9 @@ https://validator.w3.org/
 A DTD is a Document Type Definition.
 
 A DTD defines the structure and the legal elements and attributes of an XML document.
-HTML standard is called "strict", only uses valid HTML markup. "Transitional" DTD for backwards compatibility. 
+HTML standard is called "strict", only uses valid HTML markup. "Transitional" DTD for backwards compatibility.
+
+Three parts: DTD, Head, Body
 
 Understanding vertical-align, or "How (Not) To Vertically Center Content" by Gavin Kistner.
 
