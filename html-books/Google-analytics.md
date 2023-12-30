@@ -17,3 +17,9 @@ Go to Analytics: Create an account or sign in to Analytics
 The link in the paragraph above takes you to the Google Analytics landing page.
 
 Click the "Start for free" button.
+
+Step 2: Enter the welcome page
+
+After creating an account or signing in, you are welcomed to the solution.
+
+Press the "Start measuring" button to proceed.
